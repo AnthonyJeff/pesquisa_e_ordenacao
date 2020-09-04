@@ -60,4 +60,4 @@ for i in range(len(x)):
 for i in range(len(x)):
     tempo_aleatorio.append(timeit.timeit("algoritmo({}, {}, {})".format(y_aleatorio[i], 0, x[i] - 1), setup="from __main__ import algoritmo", number=1))
 
-plot_grafico(x, tempo_aleatorio, "Grafico.png", "Tempo")
+plot_grafico(x, tempo_aleatorio, "grafico.png", "Tempo")
